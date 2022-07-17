@@ -10,7 +10,7 @@
 </head>
 <body>
 <!-- ######## NavBar ######## -->
-<nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
     <div class="container">
         <!-- NavBar Brand -->
         <a href="#" class="navbar-brand">Bootstrap</a>
@@ -142,6 +142,50 @@
             </div>
             <div class="col-md">
                 <img src="images/react.svg" class="img-fluid" alt="fundamentals">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ######## Question Accordion ########  -->
+<section class="p-5" id="questions">
+    <div class="container">
+        <!-- Heading -->
+        <h2 class="text-center mb-4">Frequently Asked Question</h2>
+        <!-- Accordion -->
+        <div class="accordion accordion-flush" id="questions">
+            <!-- Accordion Item 1 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#questionOne" aria-expanded="false" aria-controls="questionOne">
+                Certificates?
+                </button>
+                </h2>
+                <div id="questionOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#questions">
+                <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eveniet hic incidunt quis! Ut iste laboriosam, saepe recusandae impedit beatae voluptas et, veniam earum reiciendis fugit itaque totam mollitia adipisci ducimus fuga laborum omnis voluptatum est illum soluta quae quas?</div>
+                </div>
+            </div>
+            <!-- Accordion Item 2 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#questionTwo" aria-expanded="false" aria-controls="questionTwo">
+                Location?
+                </button>
+                </h2>
+                <div id="questionTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#questions">
+                <div class="accordion-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit mollitia vitae quasi excepturi nostrum tenetur, reiciendis expedita sed aperiam numquam. Minima aperiam et rerum voluptates non sequi cumque id repudiandae temporibus possimus. Repudiandae aut perspiciatis recusandae atque facilis labore provident!</div>
+                </div>
+            </div>
+            <!-- Accordion Item 3 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#questionThree" aria-expanded="false" aria-controls="questionThree">
+                Cost?
+                </button>
+                </h2>
+                <div id="questionThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#questions">
+                <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eveniet unde reiciendis porro, nam ipsam eos consectetur doloribus ullam quas cupiditate quam, saepe quisquam iure error assumenda laudantium eligendi nesciunt asperiores accusantium pariatur, veritatis quidem! Harum quos autem expedita hic.</div>
+                </div>
             </div>
         </div>
     </div>
